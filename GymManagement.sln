@@ -5,6 +5,8 @@ VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GymManagement.Api", "GymManagement\GymManagement.Api.csproj", "{F2FBA0E1-1D88-4FBB-BE59-997C1E61674C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymManagement.Domain", "GymManagement.Domain\GymManagement.Domain.csproj", "{FE931E58-52E0-43C7-9F26-D17E73A1C696}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F2FBA0E1-1D88-4FBB-BE59-997C1E61674C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2FBA0E1-1D88-4FBB-BE59-997C1E61674C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2FBA0E1-1D88-4FBB-BE59-997C1E61674C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE931E58-52E0-43C7-9F26-D17E73A1C696}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE931E58-52E0-43C7-9F26-D17E73A1C696}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE931E58-52E0-43C7-9F26-D17E73A1C696}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE931E58-52E0-43C7-9F26-D17E73A1C696}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
