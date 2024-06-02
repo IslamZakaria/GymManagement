@@ -2,7 +2,7 @@
 @AdminId = f1b570ad-ab00-4116-ae59-29d7c7b5582c
 
 POST {{GymManagement_HostAddress}}/api/subscription/
-Accept: application/json
+Content-Type: application/json
 {
   "SubscriptionType": "Pro",
   "AdminId": "{{AdminId}}"
