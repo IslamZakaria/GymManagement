@@ -27,7 +27,8 @@ namespace GymManagement.Api.Controllers
             var response = new SubscriptionResponse(
                 subscriptionId,
                 request.SubscriptionType);
-            return Ok(request);
+
+            return Ok(response);
         }
     }
 }
