@@ -9,8 +9,8 @@ namespace GymManagement.Api.Controllers
     [ApiController]
     public class SubscriptionController : ControllerBase
     {
-        private readonly Mediator _mediator;
-        public SubscriptionController(Mediator mediator)
+        private readonly ISender _mediator;
+        public SubscriptionController(ISender mediator)
         {
             _mediator = mediator;
         }
