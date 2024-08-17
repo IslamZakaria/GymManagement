@@ -13,6 +13,7 @@ namespace GymManagement.Infrastructure
             services.AddDbContext<GymManagementDbContext>(options =>
                                                           options.UseSqlite("Data Source= GymManagement.db"));
             services.AddScoped<ISubscriptionRepository, SubscriptionRepository>();
+            services.AddScoped<IUnitOfWork>(ServiceProvider => ServiceProvider.GetRequiredService<GymManagementDbContext>());
             return services;
         }
     }
