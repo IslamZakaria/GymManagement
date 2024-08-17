@@ -1,5 +1,6 @@
 @GymManagement_HostAddress = http://localhost:5021
 @AdminId = f1b570ad-ab00-4116-ae59-29d7c7b5582c
+@Id = 48aaf44e-043b-4e5a-a3c4-47070db5c0e7
 
 POST {{GymManagement_HostAddress}}/api/subscription/
 Content-Type: application/json
@@ -8,3 +9,5 @@ Content-Type: application/json
   "AdminId": "{{AdminId}}"
 }
 ###
+
+GET {{GymManagement_HostAddress}}/api/subscription/{{Id}}
