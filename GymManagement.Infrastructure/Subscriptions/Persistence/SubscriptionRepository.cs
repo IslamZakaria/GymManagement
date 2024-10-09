@@ -16,7 +16,6 @@ namespace GymManagement.Infrastructure.Subscriptions.Persistence
         public async Task AddSubscriptionAsync(Subscription subscription)
         {
             await _dbContext.Subscriptions.AddAsync(subscription);
-            await _dbContext.SaveChangesAsync();
         }
 
         public async Task<bool> ExistsAsync(Guid id)
