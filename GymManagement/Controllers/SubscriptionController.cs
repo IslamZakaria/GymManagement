@@ -1,4 +1,4 @@
-﻿using GymManagement.Application.Subscriptions.Commands.CreateSubscription;
+﻿using GymManagement.Application.Subscriptions.Commands.Create;
 using GymManagement.Application.Subscriptions.Queries.Get;
 using GymManagement.Contracts.Subscriptions;
 using MediatR;
