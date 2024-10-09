@@ -15,11 +15,13 @@ namespace GymManagement.Domain.Subscriptions
 
         public Subscription(SubscriptionType subscriptionType,
                             Guid adminId,
-                            Guid? id)
+                            Guid? id = null)
         {
             SubscriptionType = subscriptionType;
             AdminId = adminId;
             Id = id ?? Guid.NewGuid();
+
+            _maxGyms = GetMaxGyms();
         }
 
         public ErrorOr<Success> AddGym(Gym gym)
