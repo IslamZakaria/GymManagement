@@ -7,7 +7,7 @@ namespace GymManagement.Infrastructure.Common.Persistence
 {
     public class GymManagementDbContext : DbContext, IUnitOfWork
     {
-        public DbSet<Subscription> subscriptions { get; set; } = null!;
+        public DbSet<Subscription> Subscriptions { get; set; } = null!;
 
         public GymManagementDbContext(DbContextOptions options) : base(options)
         {
