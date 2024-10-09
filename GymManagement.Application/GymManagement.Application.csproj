@@ -17,7 +17,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Gyms\Commands\CreateGym\" />
     <Folder Include="Gyms\Commands\DeleteGym\" />
     <Folder Include="Gyms\Queries\" />
   </ItemGroup>
