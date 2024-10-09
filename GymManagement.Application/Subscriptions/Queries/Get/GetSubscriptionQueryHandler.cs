@@ -3,7 +3,7 @@ using GymManagement.Application.Common.Interfaces;
 using GymManagement.Domain.Subscriptions;
 using MediatR;
 
-namespace GymManagement.Application.Subscriptions.Queries
+namespace GymManagement.Application.Subscriptions.Queries.Get
 {
     internal sealed class GetSubscriptionQueryHandler : IRequestHandler<GetSubscriptionQuery, ErrorOr<Subscription>>
     {
