@@ -1,5 +1,5 @@
 ﻿using GymManagement.Application.Subscriptions.Commands.CreateSubscription;
-using GymManagement.Application.Subscriptions.Queries;
+using GymManagement.Application.Subscriptions.Queries.Get;
 using GymManagement.Contracts.Subscriptions;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
