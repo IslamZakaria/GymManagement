@@ -41,7 +41,7 @@ namespace GymManagement.Application.Subscriptions.Commands.CreateSubscription
 
             await _subscriptionRepository.AddSubscriptionAsync(subscription);
             await _adminsRepository.UpdateAsync(admin);
-            await _unitOfWork.CommitChabgesAsync();
+            await _unitOfWork.CommitChangesAsync();
             return subscription;
         }
     }
