@@ -54,7 +54,7 @@ namespace GymManagement.Infrastructure.Gyms.Persistence
             return Task.CompletedTask;
         }
 
-        public Task Updatesync(Gym gym)
+        public Task UpdateAsync(Gym gym)
         {
             _dbContext.Update(gym);
 

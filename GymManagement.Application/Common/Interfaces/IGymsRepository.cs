@@ -8,7 +8,7 @@ namespace GymManagement.Application.Common.Interfaces
         Task<Gym?> GetByIdAsync(Guid id);
         Task<bool> ExistsAsync(Guid id);
         Task<List<Gym>> ListBySubscriptionIdAsync(Guid subscriptionId);
-        Task Updatesync(Gym gym);
+        Task UpdateAsync(Gym gym);
         Task RemoveAsync(Gym gym);
         Task RemoveRangeAsync(List<Gym> gyms);
     }
