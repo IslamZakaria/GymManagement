@@ -18,7 +18,7 @@ namespace GymManagement.Infrastructure.Common.Persistence
 
         }
 
-        public async Task CommitChabgesAsync()
+        public async Task CommitChangesAsync()
         {
             await base.SaveChangesAsync();
         }
