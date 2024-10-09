@@ -17,8 +17,9 @@ namespace GymManagement.Application.Subscriptions.Queries.Get
         {
             var subscription = await _subscriptionRepository.GetByIdAsync(request.Id);
 
-            return subscription is null ?
-                Error.NotFound("Subscription Not Found.") : subscription;
+            return subscription is null
+                ? Error.NotFound("Subscription Not Found.")
+                : subscription;
         }
     }
 }
